@@ -26,11 +26,10 @@ SECRET_KEY = '*77_e4+q&y_ux3kwqbx5dg7jvvk_dl1tzjj$(bp+78#ricmhrg'
 # DEBUG = False
 DEBUG = True   # 배포할 때 false, 개발환경일 때 true
 
-ALLOWED_HOSTS = ['*']
-#'3.34.7.94'
-#    '.ap-northeast-2.compute.amazonaws.com',
+ALLOWED_HOSTS = [
+    ".ap-northeast-2.compute.amazonaws.com"
 #    '.hbx.co.kr',
-#    ]
+    ]
 # Application definition
 
 INSTALLED_APPS = [
