@@ -25,18 +25,18 @@ body.fh5co-offcanvas {
 }
 
 a {
-  color: #37a000;
+  color: #6699cc;
   -webkit-transition: 0.5s, ease;
   -o-transition: 0.5s, ease;
   transition: 0.5s, ease;
 }
 a:hover {
   text-decoration: none;
-  color: #37a000;
+  color: #6699cc;
 }
 
 p, ul, ol {
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
   font-size: 16px;
   color: #848484;
   font-family: "Open Sans", Arial, sans-serif;
@@ -56,11 +56,11 @@ h6 {
   margin: 0 0 30px 0;
   font-size: 50px;
 }
-p77 {
+#add77 {
   color: #ffffff;
   font-family: 'Protest Riot', sans-serif;
   font-weight: 400;
-  margin: 0 0 30px 0;
+  margin: 0 0 50px 0;
   font-size: 30px;
 }
 
@@ -70,17 +70,17 @@ figure {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #37a000;
+  background: #6699cc;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #37a000;
+  background: #6699cc;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #37a000;
+  background: #6699cc;
 }
 
 #fh5co-header {
@@ -101,7 +101,7 @@ figure {
 
 .header-top {
   padding: 10px 0;
-  background: #37a000;
+  background: #6699cc;
 }
 .header-top .fh5co-link a {
   margin-left: 10px;
@@ -289,11 +289,11 @@ figure {
   border-bottom: none !important;
 }
 .sf-menu a:hover, .sf-menu a:focus {
-  color: #37a000 !important;
+  color: #6699cc !important;
 }
 
 .sf-menu li.active a:hover, .sf-menu li.active a:focus {
-  color: #37a000;
+  color: #6699cc;
 }
 
 .sf-menu li,
@@ -317,7 +317,7 @@ figure {
 .sf-menu ul li:hover a,
 .sf-menu ul li.sfHover a,
 .sf-menu li.active a {
-  color: #37a000;
+  color: #6699cc;
 }
 
 .sf-menu ul li:hover,
@@ -424,11 +424,13 @@ figure {
   }
 }
 #fh5co-logo a {
-  color: #37a000;
+  color: #6699cc;
 }
 #fh5co-logo a:hover, #fh5co-logo a:focus {
-  color: #37a000 !important;
+  color: #6699cc !important;
 }
+
+
 
 #fh5co-menu-wrap {
   position: relative;
@@ -442,7 +444,7 @@ figure {
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
-  color: #37a000 !important;
+  color: #6699cc !important;
 }
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
@@ -562,7 +564,7 @@ figure {
   background: none;
 }
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
-  color: #37a000 !important;
+  color: #6699cc !important;
 }
 
 #fh5co-work-section,
@@ -571,7 +573,7 @@ figure {
 #fh5co-blog-section,
 #fh5co-features,
 .fh5co-content-section {
-  padding: 7em 0;
+  padding: 5em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-work-section,
@@ -590,7 +592,7 @@ figure {
 
 .heading-section {
   padding-bottom: 1em;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 .heading-section:after {
   position: absolute;
@@ -600,7 +602,7 @@ figure {
   width: 100px;
   margin-left: -50px;
   height: 2px;
-  background: #37a000;
+  background: #6699cc;
 }
 .heading-section h3 {
   font-size: 40px;
@@ -619,7 +621,7 @@ figure {
 }
 .feature-text h3 .number {
   margin-right: 5px;
-  color: #37a000;
+  color: #6699cc;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -630,7 +632,7 @@ figure {
 }
 
 .service {
-  background: #37a000;
+  background: #6699cc;
   background: #fff;
   padding: 40px 20px 20px 20px;
   margin-bottom: 30px;
@@ -654,12 +656,12 @@ figure {
 }
 .service span i {
   font-size: 40px;
-  color: #37a000 !important;
+  color: #6699cc !important;
 }
 .service h3 {
   font-size: 20px;
   font-weight: 400;
-  color: #37a000;
+  color: #6699cc;
 }
 .service p {
   font-size: 16px;
@@ -691,7 +693,7 @@ figure {
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;
-  color: #37a000;
+  color: #6699cc;
 }
 .feature-left .feature-copy {
   float: right;
@@ -914,7 +916,10 @@ figure {
 }
 
 #fh5co-feature-product {
-  padding: 7em 0;
+  padding: 4em 0 0 0;
+}
+#fh5co-feature-producta {
+  padding: 4em 0 5em 0;
 }
 
 #fh5co-services, #fh5co-about, #fh5co-contact {
@@ -928,7 +933,7 @@ figure {
 
 #fh5co-services .fh5co-number {
   font-size: 30px;
-  color: #37a000;
+  color: #6699cc;
   position: relative;
   padding-top: 10px;
   font-style: italic;
@@ -944,7 +949,7 @@ figure {
   height: 3px;
   top: 0;
   left: 0;
-  background: #37a000;
+  background: #6699cc;
 }
 #fh5co-services .fh5co-icon {
   margin-bottom: 30px;
@@ -963,7 +968,7 @@ figure {
 }
 #fh5co-services .fh5co-icon i {
   font-size: 200px;
-  color: #37a000;
+  color: #6699cc;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services .fh5co-icon i {
@@ -1059,7 +1064,7 @@ figure {
 .fh5co-testimonial > div h3, .fh5co-team > div h3 {
   margin-bottom: 0;
   font-size: 20px;
-  color: #37a000;
+  color: #6699cc;
 }
 .fh5co-testimonial > div .position, .fh5co-team > div .position {
   color: #d9d9d9;
@@ -1126,7 +1131,7 @@ figure {
   color: rgba(0, 0, 0, 0.3);
 }
 .fh5co-blog .blog-text span.comment a i {
-  color: #37a000;
+  color: #6699cc;
   padding-left: 7px;
 }
 .fh5co-blog .blog-text h3 {
@@ -1158,20 +1163,77 @@ figure {
   color: white !important;
 }
 
-#map {
-  width: 100%;
-  height: 500px;
-  position: relative;
+.way-aa {
+  color: #5a5a5a;
+  font-weight: 500;
+  background: url(../images/subway-32.png) no-repeat left center;
+  padding-left: 25px;
+  
 }
-@media screen and (max-width: 768px) {
-  #map {
-    height: 200px;
-  }
+.way-a {
+  color: #5a5a5a;
+  font-weight: 500;
+  background: url(../images/iconmonstr-airport-2-16.png) no-repeat left center;
+  padding-left: 25px;
+  margin-top: 30px;
+}
+.way-bb {
+  color: #5a5a5a;
+  margin: 10px 0 0 25px;
+  font-weight: 500;
+  background: url(../images/walking.png) no-repeat left center;
+  padding-left: 25px;
+}
+.way-b {
+  color: #5a5a5a;
+  margin: 10px 0 0 25px;
+  font-weight: 500;
+  background: url(../images/subway-32.png) no-repeat left center;
+  padding-left: 25px;
+}
+.way-c {
+  color: #5a5a5a;
+  margin: 10px 0 0 25px;
+  font-weight: 500;
+  background: url(../images/iconmonstr-bus-8-16.png) no-repeat left center;
+  padding-left: 25px;
+}
+.way-d {
+  color: #5a5a5a;
+  font-weight: 500;
+  background: url(../images/iconmonstr-airport-2-16.png) no-repeat left center;
+  padding-left: 25px;
+}
+
+.p123 {
+  color: #5a5a5a;
+  font-weight: 500;
+  padding-left: 63px;
+  margin: 10px 0 0 0;
+}
+.p1234 {
+  color: #5a5a5a;
+  font-weight: 500;
+  padding-left: 73px;
+  margin: 10px 0 20px 10px;
+}
+
+.map iframe { /*구글맵*/
+  width: 100%; height: 390px;
+}
+
+.map p { /*지하철icn*/
+  width: 100%; 
+  margin-top: 40px;
+}
+.p99 { /*지하철icn*/
+  width: 100%; 
+  margin-top: 20px;
 }
 
 .fh5co-social-icons > a {
   padding: 4px 10px;
-  color: #37a000;
+  color: #6699cc;
 }
 .fh5co-social-icons > a i {
   font-size: 26px;
@@ -1182,8 +1244,8 @@ figure {
 }
 
 #footer {
-  background: #37a000;
-  padding: 20px 0 0px; /*60px 0 40px;*/
+  background: #6699cc;
+  padding: 15px 0 15px 0; /*60px 0 40px;*/
 }
 #footer p {
   color: white;
@@ -1234,14 +1296,14 @@ figure {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #37a000;
+  background: #6699cc;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #37a000;
+  background: #6699cc;
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
@@ -1320,14 +1382,14 @@ figure {
   color: rgba(255, 255, 255, 0.4);
 }
 #offcanvas-menu ul li a:hover {
-  color: #37a000;
+  color: #6699cc;
 }
 #offcanvas-menu ul li > .fh5co-sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
-  color: #37a000;
+  color: #6699cc;
 }
 #offcanvas-menu ul .fh5co-sub-menu {
   display: block !important;
@@ -1434,6 +1496,352 @@ figure {
   display: none;
   cursor: pointer;
 }
+
+
+/*faq 부분*/
+.faq-list {
+  border-top:3px solid #6699cc;
+  border-bottom:3px solid #6699cc;
+}
+.faq-list .faq-q {
+padding: 30px 30px 30px 90px;
+cursor: pointer;
+border-bottom: 1px solid #b8b8cc;
+background: url('../images/ico_qa_q.png') no-repeat 30px center;/*아이콘 위치*/
+position: relative;
+}
+.faq-list .faq-q:after {
+content: '';
+width: 25px;
+height: 18px;
+display: block;
+position: absolute;
+top: 50%;
+right: 30px;
+transform: translateY(-50%);
+background: url('../images//faq_arr_down.png') no-repeat;
+background-size: 25px;
+}
+.faq-list .faq-q.on:after {
+background: url('../images/faq_arr_up.png') no-repeat;
+background-size: 25px;
+}
+.faq-list .faq-a {
+  padding: 30px 30px 30px 90px;
+  display: none;
+  background: #EEEEEE url('../images/ico_qa_a.png') no-repeat 30px center; /*아이콘 위치*/
+}
+.faq-q .faqTit {
+  font-weight: 500;
+}
+.faq-a .faqCon{
+  color:#505050;
+}
+.faqCon span{
+  margin-top:10px;
+  display:block;
+  font-size:15px;
+  color:#191919
+}
+.subConWrap {
+  height: auto;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+.subConWrap .cntWrap {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.subConWrap .fullWrap {
+  width: 100%;
+}
+
+
+
+/*gallery*/
+.gallery_section .rowaa {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.gallery_section .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+} 
+
+.gallery_section .img-boxa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  margin-top: 13px;
+  border-radius: 15px;
+} 
+
+.gallery_section .img-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.gallery_section .img-boxa img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.gallery_section .img-box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  background-color: #6699cc;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  color: #ffffff;
+  font-size: 20px;
+}
+.gallery_section .img-boxa a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  background-color: #6699cc;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  color: #ffffff;
+  font-size: 20px;
+}
+.gallery_section .img-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(58, 63, 88, 0.85);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+.gallery_section .img-boxa::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(58, 63, 88, 0.85);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.gallery_section .img-box:hover::before {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.gallery_section .img-boxa:hover::before{
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.gallery_section .img-box:hover a {
+  opacity: 1;
+}
+.gallery_section .img-boxa:hover a {
+  opacity: 1;
+}
+
+.gallery_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.gallery_section .btn-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #6699cc;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #6699cc;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.gallery_section .btn-box a:hover {
+  background-color: transparent;
+  color: #6699cc;
+}
+.layout_padding {
+  padding: 20px 0;
+}
+.rowaa {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.gallery_section .rowaa {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.galleryimga {
+  width: 47.9%;
+  float: left;
+  padding: 0.5%;
+}
+.galleryimgb {
+  width: 31.4%;
+  float: left;
+  padding: 0.5%;
+}
+.galleryimgc {
+  width: 20.55%;
+  float: left;
+  padding: 0.5%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+
+  .subConWrap .cntWrap {
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+
+  .subConWrap {
+    padding: 0 0 50px 0;
+  }
+}
+
+
+@media screen and (max-width: 799px) {
+  .faq-list .faq-q {
+    padding: 20px 20px 20px 65px;
+    background: url('../images/ico_qa_q.png') no-repeat 25px center;
+    background-size:25px 25px;
+  }
+  .faq-list .faq-a {
+    padding: 20px 20px 20px 65px;
+    background: #EEEEEE url('../images/ico_qa_a.png') no-repeat 25px center;
+    background-size:25px 25px;
+  }
+  .faq-q .faqTit {
+    padding-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .faq-a .faqCon{
+    padding-top: 0;
+    color:#505050;
+  }
+  .faq-a .faqCon span{
+      margin-top:6px;
+      display:block;
+      font-size:12px;
+      line-height:14px;
+  }
+  .subConWrap {
+    padding: 50px 0 100px 0;
+  }
+  
+
+}
+
+
+@media screen and (max-width: 639px) {
+  .subConWrap .cntWrap,
+  .infoConWrap {
+    padding: 0 20px;
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+  .faq-list .faq-q {
+    padding: 15px 35px 15px 45px;
+    background: url('../images/ico_qa_q.png') no-repeat 10px center;
+    background-size:22px 22px;
+  }
+  .faq-list .faq-q:after {
+    width: 18px;
+    height: 10px;
+    right: 10px;
+    background: url('../images/faq_arr_down.png') no-repeat;
+    background-size: 18px;
+  }
+  .faq-list .faq-q.on:after {
+    background: url('../images/faq_arr_up.png') no-repeat;
+    background-size: 18px;
+  }
+  .faq-list .faq-a {
+    padding: 15px 20px 15px 45px;
+    background: #EEEEEE url('../images/ico_qa_a.png') no-repeat 10px 16px;
+    background-size:22px 22px;
+  }
+}
+
+
+
+
+/*faq 끝*/
+
+
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;
@@ -1466,9 +1874,8 @@ figure {
     padding-top: 2em;
   }
 }
-
 .row-bottom-padded-md {
-  padding-bottom: 4em;
+  padding-bottom: 2em;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
