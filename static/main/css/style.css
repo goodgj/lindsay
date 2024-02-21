@@ -1546,10 +1546,10 @@ background-size: 25px;
 .subConWrap {
   height: auto;
   margin: 0 auto;
-  padding: 0 0 50px 0;
+  padding: 0 0 40px 0;
 }
 .subConWrap .cntWrap {
-  width: 90%;
+  width: 70%;
   height: auto;
   margin: 0 auto;
 }
@@ -1757,15 +1757,16 @@ background-size: 25px;
 @media screen and (max-width: 1199px) {
 
   .subConWrap .cntWrap {
-    width: 100%;
-    padding: 0 30px;
+    width: 80%;
+    padding: 0 20px;
   }
 }
 
 @media screen and (max-width: 999px) {
 
-  .subConWrap {
-    padding: 0 0 50px 0;
+  .subConWrap .cntWrap {
+    width: 90%;
+    padding: 0 0 20px 0;
   }
 }
 
@@ -1797,7 +1798,7 @@ background-size: 25px;
       line-height:14px;
   }
   .subConWrap {
-    padding: 50px 0 100px 0;
+    padding: 10px 0 20px 0;
   }
   
 
@@ -1807,7 +1808,8 @@ background-size: 25px;
 @media screen and (max-width: 639px) {
   .subConWrap .cntWrap,
   .infoConWrap {
-    padding: 0 20px;
+    width: 100%;
+    padding: 0 10px;
   }
 
 }
