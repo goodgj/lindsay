@@ -1931,6 +1931,12 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+.centera{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
 
 .container {
   margin-right: auto;
@@ -1949,14 +1955,23 @@ pre code {
   .container {
     width: 750px;
   }
+  .centera{
+    width: 750px;
+  }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
+  .centera{
+    width: 970px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
+    width: 1170px;
+  }
+  .centera{
     width: 1170px;
   }
 }
@@ -1991,9 +2006,11 @@ pre code {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 10px;
+  padding-right: 15px;
 }
-
+.col-md-4{
+  margin-bottom: 20px;
+}
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
 }
@@ -2432,7 +2449,8 @@ pre code {
     width: 33.33333%;
   }
   .col-md-41 {
-    width: 33.33333%;
+    width: 26%;
+    margin: 0 3%;
   }
 
   .col-md-5 {

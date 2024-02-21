@@ -1179,7 +1179,7 @@ figure {
 }
 .way-bb {
   color: #5a5a5a;
-  margin: 10px 0 0 25px;
+  margin: 10px 0 0 22px;
   font-weight: 500;
   background: url(../images/walking.png) no-repeat left center;
   padding-left: 25px;
@@ -1193,7 +1193,7 @@ figure {
 }
 .way-c {
   color: #5a5a5a;
-  margin: 10px 0 0 25px;
+  margin: 10px 0 0 22px;
   font-weight: 500;
   background: url(../images/iconmonstr-bus-8-16.png) no-repeat left center;
   padding-left: 25px;
@@ -1205,26 +1205,26 @@ figure {
   padding-left: 25px;
 }
 
+
 .p123 {
   color: #5a5a5a;
   font-weight: 500;
-  padding-left: 63px;
+  padding-left: 40px;
   margin: 10px 0 0 0;
 }
 .p1234 {
   color: #5a5a5a;
   font-weight: 500;
-  padding-left: 73px;
+  padding-left: 50px;
   margin: 10px 0 20px 10px;
 }
 
 .map iframe { /*구글맵*/
-  width: 100%; height: 390px;
+  width: 100%; height: 400px;
 }
 
 .map p { /*지하철icn*/
   width: 100%; 
-  margin-top: 40px;
 }
 .p99 { /*지하철icn*/
   width: 100%; 
@@ -1571,7 +1571,7 @@ background-size: 25px;
   display: flex;
   overflow: hidden;
   position: relative;
-  border-radius: 15px;
+  border-radius: 5px;
 } 
 
 .gallery_section .img-boxa {
@@ -1581,18 +1581,18 @@ background-size: 25px;
   overflow: hidden;
   position: relative;
   margin-top: 13px;
-  border-radius: 15px;
+  border-radius: 5px;
 } 
 
 .gallery_section .img-box img {
   width: 100%;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .gallery_section .img-boxa img {
   width: 100%;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .gallery_section .img-box a {
@@ -1619,7 +1619,7 @@ background-size: 25px;
   transition: opacity 0.2s;
   color: #ffffff;
   font-size: 20px;
-}
+} 
 .gallery_section .img-boxa a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1732,17 +1732,17 @@ background-size: 25px;
 .galleryimga {
   width: 47.9%;
   float: left;
-  padding: 0.5%;
+  padding: 5px;
 }
 .galleryimgb {
   width: 31.4%;
   float: left;
-  padding: 0.5%;
+  padding: 5px;
 }
 .galleryimgc {
   width: 20.55%;
   float: left;
-  padding: 0.5%;
+  padding: 5px;
 }
 
 
