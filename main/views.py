@@ -20,10 +20,12 @@ def doc_detail(request, doc):
         path_template += 'gallery.html'
     elif doc == 'contact':
         path_template += 'contact.html'
-    elif doc == 'blank':
-        path_template += 'blank.html'
-    elif doc == 'co_map':
-        path_template += 'co_map.html'     
+    elif doc == 'place_food':
+        path_template += 'place_food.html'
+    elif doc == 'place_attraction':
+        path_template += 'place_attraction.html'     
+    elif doc == 'place_market':
+        path_template += 'place_market.html'  
     # 영어버전
     elif doc == 'en_main':
         path_template += 'en_main.html'  
