@@ -27,7 +27,7 @@ SECRET_KEY = '34rqm3ht9xnm5vxn((0l%-j!*a6vbc(&eot7f6_+kuiqnsebur'
 DEBUG = True   # 배포할 때 false, 개발환경일 때 true
 
 ALLOWED_HOSTS = ['*']
-#    ".ap-northeast-2.compute.amazonaws.com"
+#    ".ap-northeast-2.compute.amazonaws.com""
 #    '.hbx.co.kr',
  #   ]
 # Application definition
