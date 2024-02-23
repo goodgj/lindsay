@@ -8,4 +8,3 @@ urlpatterns = [
     path('<str:doc>/', views.doc_detail),
 
 ]
- 
