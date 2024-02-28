@@ -1370,7 +1370,7 @@ figure {
 }
 .modaler-content {
   background-color: #ffffff;
-  top: 25%;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -1384,7 +1384,6 @@ figure {
 }
 #modaler2-content{
   height: 220px;
-  top: 26%;
 }
 .modalpop{
   z-index: 2; /* Sit on top */
