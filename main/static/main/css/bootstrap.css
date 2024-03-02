@@ -1955,6 +1955,7 @@ pre code {
 .footer-container {
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 10px;
 }
 .container:before, .container:after {
   content: " ";

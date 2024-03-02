@@ -87,7 +87,7 @@ figure {
 #fh5co-header {
   position: relative;
   margin-bottom: 0;
-  z-index: 9999999;
+  z-index: 999;
 }
 
 .stuck {
@@ -1384,7 +1384,7 @@ font-weight: 300;
       color: #030303;
       float: right;
       font-size: 40px;
-      font-weight: 700;
+      font-weight: 700; 
     }
     .close:hover,
     .close:focus {
@@ -1432,7 +1432,7 @@ font-weight: 300;
 .modaler-content {
   background-color: #ffffff;
   top: 0;
-  bottom: 0;
+  bottom: 0; 
   left: 0;
   right: 0;
   margin: auto;
@@ -1440,14 +1440,14 @@ font-weight: 300;
   width: 400px;
   height: 250px;
   position: absolute;
-  z-index: 3;
+  z-index: 9999999;
   display: none;
 }
 #modaler2-content{
   height: 220px;
 }
 .modalpop{
-  z-index: 2; /* Sit on top */
+  z-index: 9999998; /* Sit on top */
   display: none; 
   position: fixed; /* Stay in place */
   left: 0;
@@ -1458,7 +1458,7 @@ font-weight: 300;
   height: 100%; /* Full height */
 }
 .modaler {
-  z-index: 1; /* Sit on top */
+  z-index: 9999997; /* Sit on top */
   display: none; 
   position: fixed; /* Stay in place */
   left: 0;
