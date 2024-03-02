@@ -7,6 +7,14 @@
     text-align: center;
     display: block;
 }
+.containerpla {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 50px 3% 0 3%;
+    text-align: center;
+    display: block;
+}
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +24,12 @@
 .activity {
     overflow: hidden;
     text-align: left;
+    margin-top: 30px;
 } 
 .activity .Info {
     padding: 20px 0 25px;
     position: relative;
-    color: #616161;
+    
     
 }
 .Info p {
@@ -31,21 +40,30 @@
     margin-inline-end: 0px;
     font-weight: 450;
     font-size: 16px;
+    color: #555555;
 }
 .activity h1 {
-    font-size: 26px;
+    padding-left: 20px;
+    font-size: 24px;
     font-weight: 700;
-    padding-bottom: 20px;
-}
-.activity .Info h1 {
-    font-size: 22px;
     color: #2b2b2b;
 }
 .activity .Info h2 {
+    font-size: 24px;
+    color: #2b2b2b;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.activity .Info h3 {
     font-size: 18px;
     color: #2b2b2b;
 }
-.activity .Info h1, .activity .Info h2 {
+.activity .Info h4 {
+    font-size: 24px;
+    color: #2b2b2b;
+    font-weight: 500;
+}
+.activity .Info h2, .activity .Info h3 {
     font-weight: 700;
 }
 .activity li {
@@ -79,14 +97,43 @@ img, fieldset, iframe {
     right: 0;
     top: 17px;
 }
+.iconevent1{
+float:left;
+width: 10%;
+}
+.iconevent1 img{
+    width: 20px;
+    padding-top: 10px;
+    }
+.iconeventa{
+    float:left;
+    width: 90%;
+    line-height: 1.8;
+    padding-right:10px;
+    
+}
+.iconeventa p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #2b2b2b;
+}
+
+
 @media screen and (max-width: 1200px){
     .containeraaa {
         width: 960px;
-        
+    }
+    .containerpla {
+        width: 960px;
     }
     }
 @media screen and (max-width: 640px){
     .containeraaa {
+        width: 98%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+    .containerpla {
         width: 98%;
         margin: 0 auto;
         padding: 40px 0;
@@ -108,13 +155,13 @@ img, fieldset, iframe {
 }
 */
 .notice {
-    color: #5a5a5a;
+    color: #2b2b2b;
     font-weight: 500;
     margin-top: 30px;
     font-size: 20px;
   }
 .no-p {
-    color: #9c9c9c;
+    color: #555555;
     font-weight: 250;
     padding-left: 30px;
     margin: 10px 0 0 0;

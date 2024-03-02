@@ -1438,7 +1438,11 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.home-responsive {
+  display: block;
+  max-width: 70%;
+  height: auto;
+}
 .img-rounded {
   border-radius: 6px;
 }
@@ -1948,11 +1952,22 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
+.footer-container {
+  margin-right: auto;
+  margin-left: auto;
+}
 .container:before, .container:after {
   content: " ";
   display: table;
 }
 .container:after {
+  clear: both;
+}
+.footer-container:before, .footer-container:after {
+  content: " ";
+  display: table;
+}
+.footer-container:after {
   clear: both;
 }
 @media (min-width: 768px) {
